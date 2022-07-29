@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal"
+    android:padding="18dp"
+    tools:ignore="ExtraText"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Welcome"
+        android:textColor="@color/black"
+        android:textSize="60dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-20dp"
+        android:fontFamily="sans-serif-light"
+        android:text="Sign Up to continue"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nameTextField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        android:hint="USERNAME"
+        app:startIconDrawable="@drawable/icons8_user_30"
+        android:layout_marginBottom="20dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="#1e90ff"
+        app:startIconTint="#ff8c00"
+        app:hintTextColor="@color/black"
+        android:layout_gravity="center"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/cursor_color_change"
+            android:layout_gravity="center"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+// line break
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:boxBackgroundColor="@color/white"
+        android:hint="E-MAIL"
+        app:startIconDrawable="@drawable/icons8_mail_30"
+        android:layout_marginBottom="10dp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="#1e90ff"
+        app:startIconTint="#ff8c00"
+        app:hintTextColor="@color/black"
+        android:layout_gravity="center"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/inputUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@drawable/cursor_color_change"
+            android:inputType="textEmailAddress"
+            android:layout_gravity="center"
+            />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        app:endIconMode="password_toggle"
+        app:boxBackgroundColor="@color/white"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app:boxStrokeColor="#1e90ff"
+        app:hintTextColor="@color/black"
+        app:endIconTint="#ff8c00"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userInutPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textCursorDrawable="@drawable/cursor_color_change"
+            android:layout_marginBottom="40dp"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:padding="10dp"
+        android:background="@drawable/submit_btn_theme"
+        android:textSize="20dp"
+        android:layout_marginBottom="110dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dp"
+            android:fontFamily="@font/actor"
+            android:text="Already have an account?"
+            android:textColor="@color/purple_real500"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/loginTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/actor"
+            android:gravity="center"
+            android:text="Log In"
+            android:textColor="#ff8c00"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</LinearLayout>

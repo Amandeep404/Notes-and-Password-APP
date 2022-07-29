@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/drawable/add_button_in_main_activity.xml" value="0.1335" />
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/drawable/cursor_color_change.xml" value="0.1" />
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/drawable/edittext_background.xml" value="0.197" />
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/drawable/menu_app_bar.xml" value="0.1335" />
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/drawable/submit_btn_theme.xml" value="0.197" />
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/layout-v31/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/layout/log_in_page.xml" value="0.23229166666666667" />
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/layout/nav_header.xml" value="0.23229166666666667" />
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/layout/reset_password.xml" value="0.264" />
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/layout/sign_up_page.xml" value="0.4" />
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/menu-v26/drawer_list.xml" value="0.23229166666666667" />
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/menu/drawer_list.xml" value="0.264" />
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/menu/my_drawer_list.xml" value="0.13796296296296295" />
+        <entry key="..\:/ANDROID-STUDIO-PROJECTS/Notes-and-password-App-MAIN-folder/NotesandPasswordAPP/app/src/main/res/menu/top_app_bar_menu.xml" value="0.23229166666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

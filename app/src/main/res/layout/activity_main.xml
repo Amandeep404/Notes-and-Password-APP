@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/drawerLayout"
+        tools:ignore="MissingClass">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/nav_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:titleTextColor="@android:color/black"
+            android:background="@color/white"
+            style="@style/Widget.MaterialComponents.Toolbar.Primary"
+            android:theme="@style/Widget.AppCompat.PopupMenu.Overflow"
+            app:logo="@drawable/icons8_menu_30"
+            tools:ignore="InvalidId">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                android:paddingTop="25dp"
+                android:paddingBottom="25dp"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_marginStart="30dp"
+                />
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Notes"
+        android:textSize="45dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        app:drawableStartCompat="@drawable/icons8_book_64"
+        android:drawablePadding="20dp"
+        android:background="@drawable/submit_btn_theme"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="30dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/nav_text"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:text="Passwords"
+        android:textSize="45dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        app:drawableStartCompat="@drawable/icons8_lock_64"
+        android:background="@drawable/submit_btn_theme"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.Material3.Button.ElevatedButton.Icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="230dp"
+        android:layout_marginRight="20dp"
+        android:outlineSpotShadowColor="@color/orange"
+        android:shadowColor="#ee7600"
+        android:text="ADD"
+        android:textColor="@color/orange"
+        android:textSize="20dp"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/icons8_add_30"
+        app:iconGravity="start"
+        app:iconSize="40dp"
+        app:iconTint="@color/orange" />
+
+</LinearLayout>
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/drawer_list"
+        app:headerLayout="@layout/nav_header"
+        android:fitsSystemWindows="true"
+        />
+
+</androidx.drawerlayout.widget.DrawerLayout>

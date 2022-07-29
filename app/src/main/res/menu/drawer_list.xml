@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn ="navigation_view"
+    >
+    <item
+        android:id="@+id/userProfile"
+        android:icon="@drawable/icons8_user_30__1_"
+        android:iconTint="@color/purple_500"
+        android:title="User Profile"
+        />
+    <item
+        android:id="@+id/starred"
+        android:icon="@drawable/icons8_star_30"
+        android:iconTint="@color/purple_500"
+        android:title="Starred"
+        />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/icons8_settings_30"
+        android:iconTint="@color/purple_500"
+        android:title="Settings"
+        />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/icons8_log_out_32"
+        android:iconTint="@color/purple_500"
+        android:title="Log Out"
+        />
+
+</menu>
